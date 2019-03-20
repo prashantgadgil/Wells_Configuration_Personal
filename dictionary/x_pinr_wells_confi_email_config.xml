@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Email Config" max_length="40" name="x_pinr_wells_confi_email_config" type="collection">
+        <element label="Area" max_length="32" name="area" reference="x_pinr_wells_confi_area" type="reference"/>
+        <element label="Final Dist List" max_length="1000" name="final_dist_list" type="string"/>
+        <element label="Initial Dist List" max_length="1000" name="initial_dist_list" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="area"/>
+        </index>
+    </element>
+</database>

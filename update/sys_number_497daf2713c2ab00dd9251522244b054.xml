@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_pinr_wells_confi_well_status">x_pinr_wells_confi_well_status</category>
+        <maximum_digits>2</maximum_digits>
+        <number>10</number>
+        <prefix>WELLST</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>rosen768</sys_created_by>
+        <sys_created_on>2018-12-04 18:57:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>497daf2713c2ab00dd9251522244b054</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WELLST</sys_name>
+        <sys_package display_value="Wells Configuration" source="x_pinr_wells_confi">76192b2b1382ab00dd9251522244b074</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wells Configuration">76192b2b1382ab00dd9251522244b074</sys_scope>
+        <sys_update_name>sys_number_497daf2713c2ab00dd9251522244b054</sys_update_name>
+        <sys_updated_by>rosen768</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:57:55</sys_updated_on>
+    </sys_number>
+</record_update>

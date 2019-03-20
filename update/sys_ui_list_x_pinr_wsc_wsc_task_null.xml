@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_pinr_wsc_wsc_task" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_pinr_wsc_wsc_task" element="NULL" name="x_pinr_wsc_wsc_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">189ab22b1bb36b002d60404ead4bcb4e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-03-01 15:05:29</sys_created_on>
+            <sys_id>dc9ab22b1bb36b002d60404ead4bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-03-01 15:05:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wsc_request</element>
+            <list_id display_value="x_pinr_wsc_wsc_task" element="NULL" name="x_pinr_wsc_wsc_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">189ab22b1bb36b002d60404ead4bcb4e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-03-01 15:05:29</sys_created_on>
+            <sys_id>509ab22b1bb36b002d60404ead4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-03-01 15:05:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_pinr_wsc_wsc_task" element="NULL" name="x_pinr_wsc_wsc_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">189ab22b1bb36b002d60404ead4bcb4e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-03-01 15:05:29</sys_created_on>
+            <sys_id>d09ab22b1bb36b002d60404ead4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-03-01 15:05:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_pinr_wsc_wsc_task" element="NULL" name="x_pinr_wsc_wsc_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">189ab22b1bb36b002d60404ead4bcb4e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-03-01 15:05:29</sys_created_on>
+            <sys_id>549ab22b1bb36b002d60404ead4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-03-01 15:05:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_pinr_wsc_wsc_task" element="NULL" name="x_pinr_wsc_wsc_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">189ab22b1bb36b002d60404ead4bcb4e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-03-01 15:05:29</sys_created_on>
+            <sys_id>d49ab22b1bb36b002d60404ead4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-03-01 15:05:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_pinr_wsc_wsc_task" element="NULL" name="x_pinr_wsc_wsc_task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">189ab22b1bb36b002d60404ead4bcb4e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-03-01 15:05:29</sys_created_on>
+            <sys_id>589ab22b1bb36b002d60404ead4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-03-01 15:05:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_pinr_wsc_wsc_task</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>gadgi161</sys_created_by>
+            <sys_created_on>2019-02-12 16:25:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a9c967821ba367802d60404ead4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pinr_wsc_wsc_task</sys_name>
+            <sys_package display_value="Wells Configuration" source="x_pinr_wells_confi">76192b2b1382ab00dd9251522244b074</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wells Configuration">76192b2b1382ab00dd9251522244b074</sys_scope>
+            <sys_update_name>sys_ui_list_x_pinr_wsc_wsc_task_null</sys_update_name>
+            <sys_updated_by>gadgi161</sys_updated_by>
+            <sys_updated_on>2019-02-12 16:25:08</sys_updated_on>
+            <sys_user display_value="Gadgil, Prashant">05602d5c4f84efc0bd4e97dd0210c709</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

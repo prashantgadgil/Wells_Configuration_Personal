@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="County" max_length="40" name="x_pinr_wells_confi_county" type="collection">
+        <element default="True" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="County Number" max_length="40" name="county_number" type="string"/>
+        <element display="true" label="Display Name" max_length="40" name="display_name" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="State" max_length="32" name="state" reference="x_pinr_wells_confi_state" type="reference"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+        <index name="index2">
+            <element name="state"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>9715b6f8138fe300dd9251522244b095</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_group">
+    <sys_user_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <average_daily_fte/>
+        <cost_center/>
+        <default_assignee/>
+        <description/>
+        <email/>
+        <exclude_manager>false</exclude_manager>
+        <hourly_rate>0</hourly_rate>
+        <include_members>false</include_members>
+        <manager/>
+        <name>WSC Operations Engineer Group</name>
+        <parent/>
+        <points>0</points>
+        <roles/>
+        <source/>
+        <sys_created_by>rosen768</sys_created_by>
+        <sys_created_on>2019-01-14 18:51:33</sys_created_on>
+        <sys_id>9715b6f8138fe300dd9251522244b095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rosen768</sys_updated_by>
+        <sys_updated_on>2019-01-14 18:51:33</sys_updated_on>
+        <type/>
+        <u_co_managed_by/>
+        <u_director/>
+        <u_display_name>WSC Operations Engineer Group</u_display_name>
+        <u_exclude_from_request>false</u_exclude_from_request>
+        <u_group_id/>
+        <u_group_type/>
+        <u_hr>false</u_hr>
+        <u_it_dept>false</u_it_dept>
+        <u_notification_groups/>
+        <u_skip_approval>false</u_skip_approval>
+        <u_support>false</u_support>
+        <vendors/>
+    </sys_user_group>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>gadgi161</sys_created_by>
+        <sys_created_on>2019-02-07 19:42:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e8f6622cdb6b230018bcf8f3399619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WSC Operations Engineer Group</sys_name>
+        <sys_package display_value="Wells Configuration" source="x_pinr_wells_confi">76192b2b1382ab00dd9251522244b074</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wells Configuration">76192b2b1382ab00dd9251522244b074</sys_scope>
+        <sys_update_name>sys_metadata_link_e8f6622cdb6b230018bcf8f3399619b0</sys_update_name>
+        <sys_updated_by>gadgi161</sys_updated_by>
+        <sys_updated_on>2019-02-07 19:42:16</sys_updated_on>
+        <tablename>sys_user_group</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Downtime Threshold" max_length="40" name="x_pinr_wells_confi_downtime_threshold" type="collection">
+        <element label="Area" max_length="32" name="area" reference="x_pinr_wells_confi_area" type="reference"/>
+        <element label="Downtime Code" max_length="32" name="downtime_code" reference="x_pinr_wells_confi_downtime_code" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" default="No" label="PWR Required" max_length="40" name="pwr_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Threshold" max_length="40" name="threshold" type="integer"/>
+        <index name="index">
+            <element name="area"/>
+        </index>
+        <index name="index2">
+            <element name="downtime_code"/>
+        </index>
+    </element>
+</database>

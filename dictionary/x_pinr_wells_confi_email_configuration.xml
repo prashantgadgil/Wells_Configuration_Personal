@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Email Configuration" max_length="40" name="x_pinr_wells_confi_email_configuration" type="collection">
+        <element attributes="import_attribute_name=Area,edge_encryption_enabled=true" label="Area" max_length="40" name="u_area" type="string"/>
+        <element attributes="import_attribute_name=Final Dist List,edge_encryption_enabled=true" label="Final Dist List" max_length="1000" name="u_final_dist_list" type="string"/>
+        <element attributes="import_attribute_name=Initial Dist List,edge_encryption_enabled=true" label="Initial Dist List" max_length="1000" name="u_initial_dist_list" type="string"/>
+    </element>
+</database>

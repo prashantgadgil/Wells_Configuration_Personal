@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Role Configuration" max_length="40" name="x_pinr_wells_confi_role_configuration" type="collection">
+        <element attributes="import_attribute_name=division,edge_encryption_enabled=true" label="division" max_length="40" name="u_division" type="string"/>
+        <element attributes="import_attribute_name=group,edge_encryption_enabled=true" label="group" max_length="40" name="u_group" type="string"/>
+        <element attributes="import_attribute_name=pickable,edge_encryption_enabled=true" label="pickable" max_length="40" name="u_pickable" type="string"/>
+        <element attributes="import_attribute_name=type,edge_encryption_enabled=true" label="type" max_length="40" name="u_type" type="string"/>
+        <element attributes="import_attribute_name=user,edge_encryption_enabled=true" label="user" max_length="40" name="u_user" type="string"/>
+    </element>
+</database>

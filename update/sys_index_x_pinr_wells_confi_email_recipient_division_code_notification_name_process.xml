@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>division_code,notification_name,process</col_name_string>
+        <index_col_name>90e4e19d1b8833402d60404ead4bcbe8,d1d4699d1b8833402d60404ead4bcb56,abc4699d1b8833402d60404ead4bcba2</index_col_name>
+        <logical_table_name>x_pinr_wells_confi_email_recipient</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-03-06 20:30:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cbc4f11ddb80bb4018bcf8f33996192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_pinr_wells_confi_email_recipient</sys_name>
+        <sys_package display_value="Wells Configuration" source="x_pinr_wells_confi">76192b2b1382ab00dd9251522244b074</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wells Configuration">76192b2b1382ab00dd9251522244b074</sys_scope>
+        <sys_update_name>sys_index_x_pinr_wells_confi_email_recipient_division_code_notification_name_process</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-06 20:30:00</sys_updated_on>
+        <table display_value="Email Recipient" name="x_pinr_wells_confi_email_recipient">8ba4255d1b8833402d60404ead4bcb02</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_pinr_wells_confi_role_config" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Engineer</label>
+            <language>en</language>
+            <name>x_pinr_wells_confi_role_config</name>
+            <sequence>0</sequence>
+            <sys_created_by>rosen768</sys_created_by>
+            <sys_created_on>2018-12-04 19:18:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0b2237eb13c2ab00dd9251522244b019</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rosen768</sys_updated_by>
+            <sys_updated_on>2018-12-04 19:18:32</sys_updated_on>
+            <value>Engineer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Landman</label>
+            <language>en</language>
+            <name>x_pinr_wells_confi_role_config</name>
+            <sequence>1</sequence>
+            <sys_created_by>rosen768</sys_created_by>
+            <sys_created_on>2018-12-04 19:18:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8b2237eb13c2ab00dd9251522244b01a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rosen768</sys_updated_by>
+            <sys_updated_on>2018-12-04 19:18:32</sys_updated_on>
+            <value>Landman</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Landtech</label>
+            <language>en</language>
+            <name>x_pinr_wells_confi_role_config</name>
+            <sequence>2</sequence>
+            <sys_created_by>rosen768</sys_created_by>
+            <sys_created_on>2018-12-04 19:18:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0b2237eb13c2ab00dd9251522244b01b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rosen768</sys_updated_by>
+            <sys_updated_on>2018-12-04 19:18:32</sys_updated_on>
+            <value>Landtech</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_pinr_wells_confi_role_config</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rosen768</sys_created_by>
+            <sys_created_on>2018-12-04 19:18:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ff49429e1b77a3002d60404ead4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Wells Configuration" source="x_pinr_wells_confi">76192b2b1382ab00dd9251522244b074</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Wells Configuration">76192b2b1382ab00dd9251522244b074</sys_scope>
+            <sys_update_name>sys_choice_x_pinr_wells_confi_role_config_type</sys_update_name>
+            <sys_updated_by>rosen768</sys_updated_by>
+            <sys_updated_on>2018-12-04 19:18:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_pinr_wells_confi.WellsConfigUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>This script Includes is a collection of re-usable functions which are called from across the code base at appropriate times. The detailed documentation of each function can be found just above the function declaration in the code itself and won't be repeated here.</description>
+        <name>WellsConfigUtils</name>
+        <script><![CDATA[var WellsConfigUtils = Class.create();
+WellsConfigUtils.prototype = {
+    initialize: function() {
+    },
+	
+	getEmailRecipientAddress : function(processName,notificationName,divisionCode) {
+		var recipient_address = "";
+		var gr = new GlideRecord("x_pinr_wells_confi_email_recipient");
+		gr.addQuery("division_code", divisionCode);
+		gr.addQuery("process", processName);
+		gr.addQuery("notification_name", notificationName);
+		gr.query();
+		if (gr.next()) {
+			recipient_address = gr.getValue("recipient_address");
+		}
+		return recipient_address;
+	},
+
+    type: 'WellsConfigUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>gadgi161</sys_created_by>
+        <sys_created_on>2019-03-06 20:54:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b53a39991b0c33402d60404ead4bcb84</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>WellsConfigUtils</sys_name>
+        <sys_package display_value="Wells Configuration" source="x_pinr_wells_confi">76192b2b1382ab00dd9251522244b074</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wells Configuration">76192b2b1382ab00dd9251522244b074</sys_scope>
+        <sys_update_name>sys_script_include_b53a39991b0c33402d60404ead4bcb84</sys_update_name>
+        <sys_updated_by>gadgi161</sys_updated_by>
+        <sys_updated_on>2019-03-12 20:34:16</sys_updated_on>
+    </sys_script_include>
+</record_update>

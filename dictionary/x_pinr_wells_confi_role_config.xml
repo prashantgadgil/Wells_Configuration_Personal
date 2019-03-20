@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Role Config" max_length="40" name="x_pinr_wells_confi_role_config" type="collection">
+        <element label="Division" max_length="32" name="division" reference="x_pinr_wells_confi_division" type="reference"/>
+        <element label="Group" max_length="32" name="group" reference="sys_user_group" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Pickable" max_length="40" name="pickable" type="boolean"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Engineer" sequence="0" value="Engineer"/>
+                <element inactive_on_update="false" label="Landman" sequence="1" value="Landman"/>
+                <element inactive_on_update="false" label="Landtech" sequence="2" value="Landtech"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="division"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+        <index name="index3">
+            <element name="group"/>
+        </index>
+    </element>
+</database>

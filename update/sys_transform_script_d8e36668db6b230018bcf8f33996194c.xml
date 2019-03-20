@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Load Well Statuses">396122e4db6b230018bcf8f339961980</map>
+        <order>100</order>
+        <script><![CDATA[/**
+ * For variables go to: http://wiki.service-now.com/index.php?title=Transform_Map_Script#Transformation_Script_Variables
+ **/ 
+target.active = true;
+]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>gadgi161</sys_created_by>
+        <sys_created_on>2019-02-07 19:29:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d8e36668db6b230018bcf8f33996194c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Wells Configuration" source="x_pinr_wells_confi">76192b2b1382ab00dd9251522244b074</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Wells Configuration">76192b2b1382ab00dd9251522244b074</sys_scope>
+        <sys_update_name>sys_transform_script_d8e36668db6b230018bcf8f33996194c</sys_update_name>
+        <sys_updated_by>gadgi161</sys_updated_by>
+        <sys_updated_on>2019-02-12 19:33:37</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

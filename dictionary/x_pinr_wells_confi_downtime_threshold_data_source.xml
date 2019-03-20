@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Downtime Threshold Data Source" max_length="40" name="x_pinr_wells_confi_downtime_threshold_data_source" sizeclass="6254" type="collection">
+        <element attributes="import_attribute_name=area,edge_encryption_enabled=true" label="area" max_length="40" name="u_area" type="string"/>
+        <element attributes="import_attribute_name=downtime_code,edge_encryption_enabled=true" label="downtime_code" max_length="40" name="u_downtime_code" type="string"/>
+        <element attributes="import_attribute_name=pwr_required,edge_encryption_enabled=true" label="pwr_required" max_length="40" name="u_pwr_required" type="string"/>
+        <element attributes="import_attribute_name=threshold,edge_encryption_enabled=true" label="threshold" max_length="40" name="u_threshold" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Email Recipient" max_length="40" name="x_pinr_wells_confi_email_recipient" type="collection">
+        <element label="Division Code" max_length="40" name="division_code" type="string"/>
+        <element label="Notification Name" max_length="1000" name="notification_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Process" max_length="40" name="process" type="string"/>
+        <element label="Recipient Address" max_length="1000" name="recipient_address" type="string"/>
+        <index name="index">
+            <element name="division_code"/>
+            <element name="notification_name"/>
+            <element name="process"/>
+        </index>
+    </element>
+</database>
